@@ -4,6 +4,9 @@
 // See "ESP8266 Low Power Solutions" for details
 // (https://espressif.com/en/file/855/download?token=u3bgWX4C)
 
+// Tested on Adafruit Feather HUZZAH with ESP8266 WiFi
+// GPIO 16 must be connected to RST
+
 extern "C" {
   #include <user_interface.h>
 }
